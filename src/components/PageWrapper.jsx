@@ -1,4 +1,5 @@
 import MarqueeSlider from "./Marquee";
+import Moon from "./SplineScene";
 
 export const PageWrapper = () => {
   return (
@@ -13,14 +14,17 @@ export const PageWrapper = () => {
               <p>34.8526° N, 82.3940° W</p>
             </div>
             <div className="hero-middle">
+              <div className="moon-wrapper"><Moon /></div>
+             
+
               <div className="heading-wrapper">
                 <div className="header">
                   <div className="h1">Tom beadie</div>
                 </div>
               </div>
+
               <div className="contact-button-wrapper">
                 <button className="link-button contact-btn">
-                 
                   <div className="mask"></div>
                   <p>Contact</p>
                 </button>
