@@ -1,11 +1,14 @@
-// import React from "react";
 import Marquee from "react-fast-marquee";
 
 const MarqueeSlider = () => (
   <>
-    <Marquee>
-      <h1 className="marquee-text">Tom Beadie Portfolio</h1>
-    </Marquee>
+    <div className="marquee">
+      <Marquee speed={240}>
+        <div className="marquee-inner-wrapper">
+          <h2>creative developer</h2>
+        </div>
+      </Marquee>
+    </div>
   </>
 );
 
