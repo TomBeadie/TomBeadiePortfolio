@@ -9,28 +9,21 @@ export const PageWrapper = () => {
           <div className="logo-container">TB</div>
           <MarqueeSlider />
 
-          <div className="section-hero">
+          <div className="section-hero ">
             <div className="coordinates-wrapper">
               <p>34.8526° N, 82.3940° W</p>
             </div>
-            <div className="hero-middle">
-              <div className="moon-wrapper"><Moon /></div>
-             
 
-              <div className="heading-wrapper">
-                <div className="header">
-                  <div className="h1">Tom beadie</div>
-                </div>
-              </div>
-
-              <div className="contact-button-wrapper">
-                <button className="link-button contact-btn">
-                  <div className="mask"></div>
-                  <p>Contact</p>
-                </button>
+            <div className="moon-wrapper">
+              <Moon />
+            </div>
+            <div className="heading-wrapper">
+              <div className="header">
+                <div className="h1">Tom beadie</div>
               </div>
             </div>
-            <div className="hero-bottom">
+
+            <div className="hero-bottom ">
               <div className="about-wrapper">
                 <img
                   className="divider-bar"
@@ -54,21 +47,31 @@ export const PageWrapper = () => {
                     src="src/assets/HoverstateDesignLogo.svg"
                     alt="Hoverstate Design Logo"
                   />
-                  <p className="body-text">Visit hoverstate design</p>
+                  <a href="https://www.hoverstatedesign.com/" target="_blank" className="body-text">Visit hoverstate design</a>
                 </div>
               </div>
             </div>
           </div>
           <footer className="footer">
             <div className="sm-link-wrapper">
-              <button className="link-button sm-link-btn">
-                <div className="mask"></div>
-                <p>LinkedIn</p>
-              </button>
-              <button className="link-button sm-link-btn">
-                <div className="mask"></div>
-                <p>GitHub</p>
-              </button>
+              <a href="https://www.linkedin.com/in/tombeadie/" target="_blank">
+                <button className="link-button sm-link-btn">
+                  <div className="mask"></div>
+                  <p>LinkedIn</p>
+                </button>
+              </a>
+              <a href="https://github.com/TomBeadie" target="_blank">
+                <button className="link-button sm-link-btn">
+                  <div className="mask"></div>
+                  <p>GitHub</p>
+                </button>
+              </a>
+              <a href="mailto:tomnbeadie@gmail.com" target="_blank">
+                <button className="link-button sm-link-btn">
+                  <div className="mask"></div>
+                  <p>Contact</p>
+                </button>
+              </a>
             </div>
             <div className="skills-wrapper">
               <img
@@ -85,11 +88,6 @@ export const PageWrapper = () => {
                 className="skills-icon"
                 src="src/assets/javascript-icon.svg"
                 alt="JavaScript icon"
-              />
-              <img
-                className="skills-icon"
-                src=" src/assets/typescript-icon.svg"
-                alt="TypeScript icon"
               />
               <img
                 className="skills-icon"
@@ -164,13 +162,13 @@ export const PageWrapper = () => {
             <div className="number-box">
               <p>03</p>
             </div>
-            ?
+            Tic-Tac-Toe
           </div>
           <div className="work-item last-work-item">
             <div className="number-box">
               <p>04</p>
             </div>
-            Modlite Systems
+            NOXON
           </div>
         </div>
       </div>
